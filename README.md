@@ -1,6 +1,6 @@
 # PitchData CSV exporter
 
-A Next.js app that downloads complete PitchAPI datasets as CSV. Choose a data type on the homepage; the app discovers all leagues, available seasons, and matches and gathers the selected endpoint across the catalogue. Match-level exports include match, league, and season context. No IDs are required.
+A Next.js app that downloads PitchAPI datasets as CSV, strictly limited to the 2026/27 season (`2026/2027` in PitchAPI). Leagues that do not list that exact season are excluded. Profile exports include only teams and players found in that season's match catalogue. No IDs are required.
 
 ## Run locally
 
